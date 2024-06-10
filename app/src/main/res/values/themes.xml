@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BolasAlex2024" parent="Theme.Material3.DayNight.NoActionBar"><!--*Arriba es este nombre!! -->
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.BolasAlex2024" parent="Base.Theme.BolasAlex2024" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen"><!-- ESTO ES LO NUEVO PARA EL SPLASHSCREEN tambien esta el punto 2 -->
+        <item name="windowSplashScreenBackground">@color/rojo</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">800</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.BolasAlex2024</item><!-- Esta linea tiene que tener el nombre de la app mas facil arriba -->
+    </style>
+</resources>
